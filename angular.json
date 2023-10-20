@@ -30,6 +30,9 @@
               "src/assets"
             ],
             "styles": [
+              "src/themes/variables.scss",
+              "src/themes/fonts.scss",
+              "src/themes/base.scss",
               "src/styles.scss"
             ],
             "scripts": []

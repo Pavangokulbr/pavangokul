@@ -2,3 +2,10 @@
 @import "./themes/variables.scss" ;
 @import "./themes/fonts.scss";
 @import "./themes/base.scss";
+
+a.link{
+    color: $Slate;
+}
+a.link:hover{
+    color: $Purple;
+}

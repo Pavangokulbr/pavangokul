@@ -33,7 +33,13 @@
               "node_modules/font-awesome/css/font-awesome.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/themes/variables.scss",
+              "src/themes/fonts.scss",
+              "src/themes/base.scss",
+              "src/themes/text-color.scss",
+              "src/themes/animation.scss",
+              "src/themes/route-animation.scss"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"

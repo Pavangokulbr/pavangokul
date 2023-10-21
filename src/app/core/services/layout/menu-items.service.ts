@@ -9,7 +9,7 @@ export class MenuItemsService {
   public getmenuitems(){
     let menuitems=[
       {name:'Home',url:'/home'},
-      {name:'About',url:''},
+      {name:'About',url:'/about'},
       {name:'Contact',url:''},
     ]
     return menuitems

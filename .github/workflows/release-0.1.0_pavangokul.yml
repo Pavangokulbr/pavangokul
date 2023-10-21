@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'pavangokul'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D30D226A9D0F42FBA54622C7F9572A16 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0C306A8A1B864482964118C64F485C58 }}
           package: .

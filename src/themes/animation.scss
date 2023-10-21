@@ -11,3 +11,23 @@
         text-underline-offset: 5px;
     }
 }
+@keyframes slide-in-left {
+    0%{
+        position: relative;
+        left: -100%;
+    }
+    100%{
+        position: relative;
+        left: 0px;
+    }
+}
+@keyframes slide-in-bottom {
+    0%{
+        position: relative;
+        top: 100vh;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+    }
+}

@@ -1,10 +1,11 @@
+@import "../../../styles.scss";
 .row{
     height: 80vh;
 }
 .name-title{
 font-style: normal;
 font-weight: 700;
-background: linear-gradient(273deg, #F28017 -7.82%, #68DC0D 18.42%, #047ABC 39.22%, #3C38D7 60.01%, #8868A8 87.25%);
+background: linear-gradient(273deg, #F28017 -7.82%, #68DC0D 18.42%, #047ABC 39.22%, #3C38D7 60.01%, $Purple 87.25%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;

@@ -10,7 +10,7 @@ export class MenuItemsService {
     let menuitems=[
       {name:'Home',url:'/home'},
       {name:'About',url:'/about'},
-      {name:'Contact',url:''},
+      {name:'Contact',url:'/contact'},
     ]
     return menuitems
   }

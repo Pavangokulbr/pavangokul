@@ -1,5 +1,6 @@
 @import "./variables.scss";
 @import "./animation.scss";
+@import "./fonts.scss";
 .text-purple{
     color: $Purple;
 }
@@ -18,8 +19,12 @@ a.link:hover{
 
 .text-link:hover{
     color:$Purple !important;
+    animation: underline 0.2s forwards;
 }
 
 .text-link.active{
     color: $Purple !important;
+}
+.navbar,p{
+    font-family: 'SF Mono', Courier, monospace;
 }

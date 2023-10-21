@@ -1,0 +1,14 @@
+<div class="footer-bottom ">
+    <div class="d-flex container-lg justify-content-between">
+        <div class="social">
+            <ul class="d-flex no-bullets">
+                <li *ngFor="let item of socialIcons">
+                    <a class="link" href="{{item.url}}">
+                        <i class="bi bi-{{item.name}} me-3" ></i>
+                    </a>
+                </li>   
+            </ul>
+        </div>        
+        <p>&copy; 2023 Pavangokul BR</p>
+    </div>
+</div>

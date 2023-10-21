@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-lg">
+      <a class="navbar-brand"  href=""><img src="../../../../../assets/logos/P-Logo.svg" alt="pvanngokul-logo"></a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item" *ngFor="let item of menuItems; index as i">
+          <a class="nav-link text-link" href="{{item.url}}"><span class="text-purple">{{i}}.</span>{{item.name}}</a>
+        </li>
+      </ul>
+    </div>
+</nav>

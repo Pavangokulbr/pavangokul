@@ -1,0 +1,25 @@
+@import "./variables.scss";
+@import "./animation.scss";
+.text-purple{
+    color: $Purple;
+}
+
+a.link{
+    color: $Slate;
+}
+
+a.link:hover{
+    color: $Purple;
+}
+
+.nav-link,.text-link{
+    color:$Slate !important;
+}
+
+.text-link:hover{
+    color:$Purple !important;
+}
+
+.text-link.active{
+    color: $Purple !important;
+}

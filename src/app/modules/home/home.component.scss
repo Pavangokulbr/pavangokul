@@ -1,0 +1,37 @@
+@import "../../../styles.scss";
+.row{
+    height: 80vh;
+}
+.name-title{
+font-style: normal;
+font-weight: 700;
+background: linear-gradient(273deg, #F28017 -7.82%, #68DC0D 18.42%, #047ABC 39.22%, #3C38D7 60.01%, $Purple 87.25%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.name-title h3{
+    line-height: 30px;
+}
+.name{
+    font-size: 5em;
+    line-height: 90px;
+}
+.title{
+    font-size:3em;
+    line-height: 40px;
+}
+.text-purple:hover{
+    animation: underline 0.2s forwards;
+}
+.px-5{
+    padding-left: 160px !important;
+}
+.discription{
+    padding-top: 25px;
+}
+.col-5 svg{
+    width:211px;
+    height:292px;
+    transform: scale(1.5);
+}

@@ -8,8 +8,8 @@ export class MenuItemsService {
   constructor() {   }
   public getmenuitems(){
     let menuitems=[
-      {name:'Home',url:''},
-      {name:'About',url:''},
+      {name:'Home',url:'/home'},
+      {name:'About',url:'/about'},
       {name:'Contact',url:''},
     ]
     return menuitems

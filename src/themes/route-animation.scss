@@ -1,0 +1,9 @@
+.route{
+    height:91vh;
+    overflow: hidden;
+}
+.route-component{
+    animation: slide-in-bottom 0.4s forwards ease;
+    position: relative;
+    top: 100vh;
+}

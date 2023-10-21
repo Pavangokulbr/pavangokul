@@ -1,0 +1,51 @@
+<div class="route">
+    <div class="route-component">
+<div class="row main">
+    <div class="col flex-column d-flex justify-content-center px-5">
+        <div class="row">
+            <div class="col col-min"><h1>About me</h1></div>
+            <div class="col p-1"><hr></div>
+        </div>
+        <div class="row">
+            <div class="col discription"><p>Full Stack Developer with 1 years of experience in developing web applications using C#, 
+                Angular, SQL, and EF Core. Seeking to leverage my skills in software development and project 
+                management to deliver high-quality solutions for clients. I would to work with a progressive 
+                organization where I could utilize my knowledge & skills for mutual growth.
+                </p></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col col-min "><h1>Technical Skill Set</h1></div>
+            <div class="col p-1"><hr></div>
+        </div>
+        <div class="row">
+            <div class="col discription">
+                <div class="table-responsive">
+                    <table class="text-purple">
+                        <tbody>
+                            <tr class=""  *ngFor="let item of technicalSkillset">
+                                <td>
+                                    {{item.heading}} 
+                                </td>
+                                <td *ngFor="let skill of item.skills">
+                                <i class="{{skill.icon}} mx-3 me-2"></i><span>{{skill.name}}</span>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-5 d-flex justify-content-center align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="272" height="262" viewBox="0 0 272 262" fill="none">
+            <path d="M0.5 193.5H195L267 246L73.5 247L0.5 193.5Z" fill="#8363A4"/>
+            <path d="M93.5 193.5H203L272 247H166.5L93.5 193.5Z" fill="#232637"/>
+            <path d="M0.5 0.5L73 53.5V247.5L0.5 194V0.5Z" fill="#232637"/>
+            <path d="M194.5 149.5L267 202.5V246.5L194.5 193V149.5Z" fill="#151720"/>
+            <path d="M184.5 203L266.5 201.5V259.5C266.5 260.605 265.605 261.5 264.5 261.5H186.5C185.395 261.5 184.5 260.605 184.5 259.5V203Z" fill="#C5A7E4"/>
+            <path d="M0 0H190.915C193.245 0 195.514 0.739488 197.396 2.11192L261.584 48.9155C263.144 50.0528 262.346 52.5215 260.416 52.5314L73 53.5L0 0Z" fill="#8363A4"/>
+            <path d="M113.965 151.307C113.185 150.735 113.59 149.5 114.556 149.5H195L267 202L184.5 203L113.965 151.307Z" fill="#8363A4"/>
+          </svg>
+    </div>
+</div>
+</div>
+</div>

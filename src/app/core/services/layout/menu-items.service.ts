@@ -16,9 +16,11 @@ export class MenuItemsService {
   }
   public getSocialIcons(){
     let menuitems=[
-      {name:'twitter-x',url:''},
-      {name:'github',url:''},
-      {name:'linkedin',url:''},
+      {name:'github',url:'https://github.com/Pavangokulbr'},
+      {name:'twitter-x',url:'https://twitter.com/pavangokulbr'},
+      {name:'linkedin',url:'https://www.linkedin.com/in/pavangokul'},
+      {name:'youtube',url:'https://www.youtube.com/@pavangokul'},
+      {name:'google',url:'https://www.google.com/search?q=pavangokul'},
     ]
     return menuitems
   }

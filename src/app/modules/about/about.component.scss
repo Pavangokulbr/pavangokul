@@ -1,5 +1,11 @@
-.row{
-    height: 80vh;
+@import "../../../styles.scss";
+.row.main{
+    height: 85vh;
+    padding-left: 100px;
+}
+.col-min{
+    max-width: max-content !important;
+    color: $Purple;
 }
 .discription{
     padding-top: 25px;
@@ -8,4 +14,7 @@
     width:211px;
     height:292px;
     transform: scale(1.5);
+}
+.navbar{
+    box-shadow: 10px 10px 10px 10px #fff !important;
 }

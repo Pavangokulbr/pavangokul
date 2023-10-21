@@ -1,15 +1,7 @@
 @import "../../../../../styles.scss";
-
-.nav-link,.text-purple{
-    color:$Slate !important;
+.navbar{
+    font-family: 'SF Mono', Courier, monospace;
 }
-.text-purple:hover{
-    color:$Purple !important;
-}
-.text-purple.active{
-    color: $Purple !important;
-}
-
 .navbar-brand img{
     height: auto;
     width: 20%;

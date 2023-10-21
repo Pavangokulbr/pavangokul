@@ -1,0 +1,13 @@
+// underline animation
+.text-link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.1px;
+    background: $Purple;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0);
+}
+.text-link:hover::after{
+    transform: scale(1);
+}
